@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.ssll725.us": dockerHub,
-  "quay.ssll725.us": "https://quay.io",
-  "gcr.ssll725.us": "https://gcr.io",
-  "k8s-gcr.ssll725.us": "https://k8s.gcr.io",
-  "k8s.ssll725.us": "https://registry.k8s.io",
-  "ghcr.ssll725.us": "https://ghcr.io",
-  "cloudsmith.ssll725.us": "https://docker.cloudsmith.io",
-  "ecr.ssll725.us": "https://public.ecr.aws",
+  "docker.vpnla.org": dockerHub,
+  "quay.vpnla.org": "https://quay.io",
+  "gcr.vpnla.org": "https://gcr.io",
+  "k8s-gcr.vpnla.org": "https://k8s.gcr.io",
+  "k8s.vpnla.org": "https://registry.k8s.io",
+  "ghcr.vpnla.org": "https://ghcr.io",
+  "cloudsmith.vpnla.org": "https://docker.cloudsmith.io",
+  "ecr.vpnla.org": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.ssll725.us": dockerHub,
+  "docker-staging.vpnla.org": dockerHub,
 };
 
 function routeByHosts(host) {
